@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main() {
+    int a,b;
+    sum(a,b);
+    getch();
+}
+sum(a,b)
+{
+    int c;
+    printf("enter a,b");
+    scanf("%d%d",&a,&b);
+    c=a+b;
+    printf("c=%d",c);
+    mult(a,b);
+    return c;
+}
+mult(a,b)
+{
+    int d;
+    d=a*b;
+    printf("d=%d",d);
+
+    return d;
+}
